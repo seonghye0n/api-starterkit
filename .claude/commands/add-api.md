@@ -45,4 +45,4 @@ argument-hint: [엔드포인트에 대한 자연어 설명 (예: "댓글 작성 
 
 ## 완료 후
 
-변경/생성된 파일 목록을 요약해서 알려주고, `./gradlew compileJava`로 컴파일이 되는지 확인한다.
+변경/생성된 파일 목록을 요약해서 알려주고, `./gradlew compileJava`로 컴파일이 되는지 확인한다. 그 다음 `api-documenter` 서브 에이전트를 실행해 새로 추가된 엔드포인트의 Swagger 어노테이션과 README.md "주요 API" 표를 갱신한다.
